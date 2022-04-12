@@ -1,0 +1,173 @@
+.a {
+    font-family: "標楷體";
+    font-size: 55px;
+    text-align: center;
+    margin-top: -80px;
+    margin-bottom: 10px;
+}
+
+.b {
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+
+}
+
+.AX {
+    display: block;
+    margin: auto;
+    width: 300px;
+    margin-top: -80px;
+}
+
+.AX:hover {
+    animation: AX 800ms ease-in-out;
+}
+
+@keyframes AX {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(+2px, 0, 0);
+    }
+
+    30%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(+4px, 0, 0);
+    }
+
+    50% {
+        transform: translate3d(-4px, 0, 0);
+    }
+}
+
+
+#c1 {
+    background-color: rgb(103, 125, 165);
+    border-radius: 3px;
+    opacity: 0.8;
+}
+
+#c2 {
+    background-color: rgb(235, 172, 231);
+    border-radius: 3px;
+    opacity: 0.8;
+}
+
+#c3 {
+    background-color: rgb(103, 125, 165);
+    border-radius: 3px;
+    opacity: 0.8;
+}
+
+.c {
+    text-align: center;
+    font-family: "標楷體";
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#c4 {
+    background-color: black;
+    border-radius: 3px;
+    opacity: 0.8;
+}
+
+footer {
+    color: white;
+}
+
+#L,
+#R {
+    width: 10%;
+}
+
+.Space {
+    width: 10%;
+}
+
+#C {
+    width: 60%;
+}
+
+.Q {
+    width: 100%;
+    transition: 2s ease-in-out;
+    cursor: pointer;
+}
+
+.Q:hover {
+    transform: rotate(900deg);
+}
+
+.W {
+    width: 100%;
+    transition: 2s ease-in-out;
+    cursor: pointer;
+}
+
+.W:hover {
+    transform: rotate(900deg);
+}
+
+/*翻轉*/
+
+#B {
+    display: none;
+}
+
+#E {
+    display: none;
+}
+
+#G {
+    display: none;
+}
+
+#I {
+    display: none;
+}
+
+#K {
+    display: none;
+}
+
+#N {
+    display: none;
+}
+
+#T {
+    display: none;
+}
+
+#V {
+    display: none;
+}
+
+#X {
+    display: none;
+}
+
+#Z {
+    display: none;
+}
